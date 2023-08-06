@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <style>
+       body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    .timetable {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 0 auto;
+        border: 2px solid #333;
+    }
+
+    .timetable th, .timetable td {
+        border: 1px solid #333;
+        padding: 10px;
+    }
+
+    .timetable th {
+        background-color: #f2f2f2;
+        color: #333;
+    }
+
+    .timetable tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .timetable tr:hover {
+        background-color: lightseagreen;
+    }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Timetable</h1>
+    <table class="timetable">
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>9:00 AM</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>History</td>
+            <td>Physics</td>
+        </tr>
+        <tr>
+            <td>10:00 AM</td>
+            <td>History</td>
+            <td>Math</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>11:00 AM</td>
+            <td colspan="5">Break</td>
+        </tr>
+        <tr>
+            <td>12:00 PM</td>
+            <td>Chemistry</td>
+            <td>English</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>History</td>
+        </tr>
+        <tr>
+            <td colspan="6">Lunch Break</td>
+        </tr>
+        <tr>
+            <td>2:00 PM</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>History</td>
+            <td>Physics</td>
+        </tr>
+        <tr>
+            <td>10:00 AM</td>
+            <td>History</td>
+            <td>Math</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>1:00 PM</td>
+            <td>Chemistry</td>
+            <td>English</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>History</td>
+        </tr>
+    </table>
+</body>
+</html>
